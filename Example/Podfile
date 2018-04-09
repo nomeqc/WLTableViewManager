@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WLTableViewManager_Example' do
+  pod 'WLTableViewManager', :path => '../'
+
+  target 'WLTableViewManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
