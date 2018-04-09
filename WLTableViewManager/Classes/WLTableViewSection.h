@@ -186,7 +186,6 @@ extern CGFloat const WLTableViewSectionFooterHeightAutomatic;
 /**
  Inserts a given item at the end of the section.
  @param item The item to add to the end of the section. This value must not be `nil`.
- @return The item.
  */
 - (void)addItem:(id)item;
 
