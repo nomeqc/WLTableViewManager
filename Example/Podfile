@@ -1,11 +1,12 @@
 use_frameworks!
 
 target 'WLTableViewManager_Example' do
+  
+  pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
   pod 'WLTableViewManager', :path => '../'
 
   target 'WLTableViewManager_Tests' do
     inherit! :search_paths
-
-    
+  
   end
 end

@@ -1,0 +1,19 @@
+PODS:
+  - UITableView+FDTemplateLayoutCell (1.6)
+  - WLTableViewManager (0.1.0)
+
+DEPENDENCIES:
+  - UITableView+FDTemplateLayoutCell (~> 1.6)
+  - WLTableViewManager (from `../`)
+
+EXTERNAL SOURCES:
+  WLTableViewManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  WLTableViewManager: ea8f02016a05e5fba52ac718523397d17dabe68e
+
+PODFILE CHECKSUM: 203cb1c80a19ddeb55f4b81c14ad711fc99bef39
+
+COCOAPODS: 1.3.1
