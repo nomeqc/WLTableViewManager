@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of WLTableViewManager.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/nomeqc@gmail.com/WLTableViewManager",
+  "homepage": "https://github.com/Nomeqc/WLTableViewManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,17 @@
     "nomeqc@gmail.com": "xie5405@163.com"
   },
   "source": {
-    "git": "https://github.com/nomeqc@gmail.com/WLTableViewManager.git",
+    "git": "https://github.com/Nomeqc/WLTableViewManager.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WLTableViewManager/Classes/**/*"
+  "source_files": "WLTableViewManager/Classes/**/*",
+  "public_header_files": "WLTableViewManager/Classes/**/*.h",
+  "dependencies": {
+    "UITableView+FDTemplateLayoutCell": [
+      "~> 1.6"
+    ]
+  }
 }

@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "WLTableViewCell.h"
+#import "WLTableViewCellStyle.h"
+#import "WLTableViewItem.h"
+#import "WLTableViewManager.h"
+#import "WLTableViewSection.h"
 
 FOUNDATION_EXPORT double WLTableViewManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char WLTableViewManagerVersionString[];

@@ -7,32 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		034D634D685F191B9C9FFF63901F097E /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4341329E0926FC259F103336B62B1513 /* UITableView+FDTemplateLayoutCell-dummy.m */; };
-		06F3C30E9C01E4001301D322277CC95E /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 482EC47306DD9B8A5AE26D2F21B8A5CF /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C430E9F267772895C934672EAD20FA5 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE44BB57B6680149F668F2EA996F5B /* UITableView+FDTemplateLayoutCell.m */; };
-		378AA691C9BC07CC63F56A675CD12759 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4F5574A6E08E616F4C8F14EE6C517B2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4F919DE04221BA13AF005F145B95D8E4 /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 624CF3287BB79B0A1F2403D9DB36D03E /* UITableView+FDIndexPathHeightCache.m */; };
-		6F85AD4870E3BF27C3CB3F1749886288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0B3A9B2471C702DB8EF125836043FF76 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE44BB57B6680149F668F2EA996F5B /* UITableView+FDTemplateLayoutCell.m */; };
+		10B61FAB7D7C7BF851E5A3AA6451A5FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFECFDB658B5B31178279D176F30F123 /* Foundation.framework */; };
+		131B784B75924A5F7B76FF711905AC93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFECFDB658B5B31178279D176F30F123 /* Foundation.framework */; };
+		25F92234FE9AA9EC56CAEC3052C16DDE /* WLTableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D1B56ED1A204B4560FAAD85B577479 /* WLTableViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26066DACCE46854022DE3821DC4C1E33 /* WLTableViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D52AC5905AEC369241C29CAABF247B3 /* WLTableViewManager-dummy.m */; };
+		292E98F7C1690EFCA7ED165F20C3D2C2 /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F78701BA972A8B39C1B8627E5963BE8 /* UITableView+FDKeyedHeightCache.m */; };
+		2B1F703B23455432683ED85909736570 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4341329E0926FC259F103336B62B1513 /* UITableView+FDTemplateLayoutCell-dummy.m */; };
+		2D30EDB944D9B75925A59095E1BEB8E7 /* Pods-WLTableViewManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E3D162A2E5CA02EB4CAF26A2302845 /* Pods-WLTableViewManager_Example-dummy.m */; };
+		2D4608F898019315D9D3C4F98836B3C5 /* WLTableViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F7A2E9B49369C85CF4EB953E724AAC /* WLTableViewSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320EB44EE74864E60DC49C5E9D3ADC5C /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACFCBFF2B7FFAD2329045C66AEA6D09 /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3542E5C42DB6AB61A51632BF29776D31 /* UITableView_FDTemplateLayoutCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F68986DD133AD663AC0F4A17EE6E09 /* UITableView_FDTemplateLayoutCell.framework */; };
+		36418DF53B657C4452C32AB34EA410AD /* WLTableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A11C0A8B23916C3C4E4064BA9E44BF4 /* WLTableViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		378AA691C9BC07CC63F56A675CD12759 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFECFDB658B5B31178279D176F30F123 /* Foundation.framework */; };
+		394459C080E718B0455D72FC7A9C5765 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FE285B5E145C7375B69C8EFCB0E088 /* UITableView+FDTemplateLayoutCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4749FF2D1859C1891F991500ECA65F11 /* Pods-WLTableViewManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 676CBCA1B486344780C6C35049F75438 /* Pods-WLTableViewManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48190128747156CA9A39D227DAE0BE5C /* WLTableViewCellStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = A1888827C20C5DE2809061D116D822B1 /* WLTableViewCellStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		523AEE824FD40FA68AA20629E98C3A9D /* WLTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FB5E84A7ECA9E3F2DE83C8476AECC1 /* WLTableViewItem.m */; };
+		6880B63E081EB89894D119E214160F17 /* WLTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F037BA51BA593F810625B33B6D85AD /* WLTableViewSection.m */; };
+		68E44E64BD1C3AA347FA830F5D86319A /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F361108ED9FF3F7CCBFBDF3925C9D0F5 /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8075A21BC26D806F0D8E643BF64EADBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFECFDB658B5B31178279D176F30F123 /* Foundation.framework */; };
+		834E1A2D83BE8CB9EA51FFE15FE2D88B /* WLTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E28EA6EA26CF1C44248450B781803817 /* WLTableViewManager.m */; };
 		8D1A5CD171C0F6E88F0E3AD0901023F6 /* Pods-WLTableViewManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AB91BD10E1A2118F9689CE553D70E0 /* Pods-WLTableViewManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C71F259D565244803789642652ACED4 /* Pods-WLTableViewManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 676CBCA1B486344780C6C35049F75438 /* Pods-WLTableViewManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A78D4C9A292D77BA8EEA115A756F7CB5 /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F78701BA972A8B39C1B8627E5963BE8 /* UITableView+FDKeyedHeightCache.m */; };
-		C33CE36099C373D4D85034D78EB33045 /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACFCBFF2B7FFAD2329045C66AEA6D09 /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8A1C03842A14D76A0B341BE9C314EFB /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B69C232795C7F0948377C8020AB685 /* UITableView+FDTemplateLayoutCellDebug.m */; };
-		CD848FFDE9BBCFE4AF1636AA78D59178 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FE285B5E145C7375B69C8EFCB0E088 /* UITableView+FDTemplateLayoutCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D55BE45DAE73AE1E223F21C5E24DFC12 /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F361108ED9FF3F7CCBFBDF3925C9D0F5 /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6D7596B2E6FF5A1665FE4D38AED2805 /* WLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBD867D3C5357F68B5AF0B0170D7976 /* WLTableViewCell.m */; };
+		A736DA0AAC4844B34620C503198F167D /* WLTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B9F4A35FACBB4E5C0DB5CF13D32A443 /* WLTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B46C3B50FF4EFD2ED2658D80D2C1C8BC /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 624CF3287BB79B0A1F2403D9DB36D03E /* UITableView+FDIndexPathHeightCache.m */; };
+		BB20BB9D5F924D7C2EB618A58660501A /* WLTableViewManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF25C829C34540A7E8FB76216AB857E /* WLTableViewManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF1C414FC4E4AB1EE3455CBBCA03B8E1 /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 482EC47306DD9B8A5AE26D2F21B8A5CF /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D022F1F5E26891DC34F61CCF4CEB5AB2 /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 096DEDA5E7B958BFB7755E18D5CD4CBF /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D90D5C7E3A32F9FDA7B0C62E95626F40 /* WLTableViewCellStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C8457700AAACD0E79941C4BFCED634E5 /* WLTableViewCellStyle.m */; };
 		E590EFBC3A6F810BF7AEC5FFAC8A4A7C /* Pods-WLTableViewManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 082ED0189FBD2357590D8D359DFD6F7E /* Pods-WLTableViewManager_Tests-dummy.m */; };
-		FEA8D73B633A4837494F83487A0A4A4B /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 096DEDA5E7B958BFB7755E18D5CD4CBF /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF1931ECC569EDF928225FDA7FF0D678 /* Pods-WLTableViewManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E3D162A2E5CA02EB4CAF26A2302845 /* Pods-WLTableViewManager_Example-dummy.m */; };
+		F60CB22994BBA02FB9FDF7109A2964DE /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B69C232795C7F0948377C8020AB685 /* UITableView+FDTemplateLayoutCellDebug.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9A328181F9EF6BD30E8D1EF6B649357D /* PBXContainerItemProxy */ = {
+		692AC4DA4AD25AD89FFC0C072E09FF29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 45B715D179DFABA7DFDABF910E6EBF03;
+			remoteGlobalIDString = 66E06946D0D4E56EDF5D855C9D5A6FCD;
 			remoteInfo = "UITableView+FDTemplateLayoutCell";
+		};
+		72E9C0E3FFBA5F8B9DBBE418429EB600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E06946D0D4E56EDF5D855C9D5A6FCD;
+			remoteInfo = "UITableView+FDTemplateLayoutCell";
+		};
+		C8816911CF82CE03A434571859F1F4B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20CF5E3BE13CED2A06368A2268452198;
+			remoteInfo = WLTableViewManager;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,9 +68,13 @@
 		082ED0189FBD2357590D8D359DFD6F7E /* Pods-WLTableViewManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLTableViewManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		08B69C232795C7F0948377C8020AB685 /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCellDebug.m"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
 		096DEDA5E7B958BFB7755E18D5CD4CBF /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDIndexPathHeightCache.h"; path = "Classes/UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		0CBD867D3C5357F68B5AF0B0170D7976 /* WLTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewCell.m; path = WLTableViewManager/Classes/WLTableViewCell.m; sourceTree = "<group>"; };
 		18F04D9F1BA9CC1D567E4F2277B643C8 /* Pods-WLTableViewManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLTableViewManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		1A11C0A8B23916C3C4E4064BA9E44BF4 /* WLTableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewManager.h; path = WLTableViewManager/Classes/WLTableViewManager.h; sourceTree = "<group>"; };
 		1FBDA6203522647CF379671EA7AF4D16 /* Pods-WLTableViewManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLTableViewManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		269CF68B1FBC4D6B0ED2C59D7129B13A /* Pods_WLTableViewManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLTableViewManager_Example.framework; path = "Pods-WLTableViewManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F68986DD133AD663AC0F4A17EE6E09 /* UITableView_FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITableView_FDTemplateLayoutCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		266516AB749B9CD93FBB66ECAE32C7FD /* Pods_WLTableViewManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLTableViewManager_Example.framework; path = "Pods-WLTableViewManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF25C829C34540A7E8FB76216AB857E /* WLTableViewManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLTableViewManager-umbrella.h"; sourceTree = "<group>"; };
 		31FE285B5E145C7375B69C8EFCB0E088 /* UITableView+FDTemplateLayoutCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-umbrella.h"; sourceTree = "<group>"; };
 		39E3D162A2E5CA02EB4CAF26A2302845 /* Pods-WLTableViewManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLTableViewManager_Example-dummy.m"; sourceTree = "<group>"; };
 		3ACFCBFF2B7FFAD2329045C66AEA6D09 /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDKeyedHeightCache.h"; path = "Classes/UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
@@ -52,46 +84,69 @@
 		482EC47306DD9B8A5AE26D2F21B8A5CF /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCellDebug.h"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
 		624CF3287BB79B0A1F2403D9DB36D03E /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDIndexPathHeightCache.m"; path = "Classes/UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
 		653D9F7159405780BBC3CD5407282E99 /* Pods-WLTableViewManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLTableViewManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		676CBCA1B486344780C6C35049F75438 /* Pods-WLTableViewManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLTableViewManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		6D259D00F696AF368A315E96B301B777 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7233CF7B37CB986D989C9BBB0A6EB838 /* WLTableViewManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLTableViewManager.modulemap; sourceTree = "<group>"; };
 		7B989B253F6AE9CB2799F03B7CA9A526 /* Pods-WLTableViewManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLTableViewManager_Tests.modulemap"; sourceTree = "<group>"; };
+		7D52AC5905AEC369241C29CAABF247B3 /* WLTableViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLTableViewManager-dummy.m"; sourceTree = "<group>"; };
 		7EEA0C692798E034FA63B9772F844EF7 /* Pods-WLTableViewManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLTableViewManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		85FB5E84A7ECA9E3F2DE83C8476AECC1 /* WLTableViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewItem.m; path = WLTableViewManager/Classes/WLTableViewItem.m; sourceTree = "<group>"; };
 		87F143B5301C1453746E453E4C699EDC /* Pods-WLTableViewManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLTableViewManager_Example-resources.sh"; sourceTree = "<group>"; };
 		892BD1986F74912F24117CEE68854B9F /* Pods-WLTableViewManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLTableViewManager_Example.modulemap"; sourceTree = "<group>"; };
 		8B47E78D21BE33221BAD2DC0AE80CC2B /* UITableView+FDTemplateLayoutCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITableView+FDTemplateLayoutCell.xcconfig"; sourceTree = "<group>"; };
+		8B9F4A35FACBB4E5C0DB5CF13D32A443 /* WLTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewCell.h; path = WLTableViewManager/Classes/WLTableViewCell.h; sourceTree = "<group>"; };
 		8F78701BA972A8B39C1B8627E5963BE8 /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDKeyedHeightCache.m"; path = "Classes/UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B79724A1D20E1B0430BDE26A3212976 /* Pods_WLTableViewManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLTableViewManager_Tests.framework; path = "Pods-WLTableViewManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1888827C20C5DE2809061D116D822B1 /* WLTableViewCellStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewCellStyle.h; path = WLTableViewManager/Classes/WLTableViewCellStyle.h; sourceTree = "<group>"; };
+		A3F7A2E9B49369C85CF4EB953E724AAC /* WLTableViewSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewSection.h; path = WLTableViewManager/Classes/WLTableViewSection.h; sourceTree = "<group>"; };
+		AFECFDB658B5B31178279D176F30F123 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B1A4C9B51173DA16D13F8801107D04DC /* Pods-WLTableViewManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLTableViewManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B4AB91BD10E1A2118F9689CE553D70E0 /* Pods-WLTableViewManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLTableViewManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BC38265F1AB751FF6E79A8B22A6A79C6 /* WLTableViewManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLTableViewManager.xcconfig; sourceTree = "<group>"; };
+		BCD0C8F713EF6A0EB48374F4B59720B6 /* UITableView_FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UITableView_FDTemplateLayoutCell.framework; path = "UITableView+FDTemplateLayoutCell.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2BB2D463C2D89FE13AAD9EC3940CE6 /* Pods-WLTableViewManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLTableViewManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C1A16EB8FCD2BC0F4F71860527145EEE /* Pods-WLTableViewManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLTableViewManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CF3D73744E2D8990AB8991C7FAEB797B /* UITableView_FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UITableView_FDTemplateLayoutCell.framework; path = "UITableView+FDTemplateLayoutCell.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D1B56ED1A204B4560FAAD85B577479 /* WLTableViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewItem.h; path = WLTableViewManager/Classes/WLTableViewItem.h; sourceTree = "<group>"; };
+		C8457700AAACD0E79941C4BFCED634E5 /* WLTableViewCellStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewCellStyle.m; path = WLTableViewManager/Classes/WLTableViewCellStyle.m; sourceTree = "<group>"; };
+		D6F037BA51BA593F810625B33B6D85AD /* WLTableViewSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewSection.m; path = WLTableViewManager/Classes/WLTableViewSection.m; sourceTree = "<group>"; };
 		DBDE44BB57B6680149F668F2EA996F5B /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCell.m"; path = "Classes/UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
 		E0C48747A3E67FC042E17F77BE1D28D1 /* Pods-WLTableViewManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLTableViewManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E28EA6EA26CF1C44248450B781803817 /* WLTableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewManager.m; path = WLTableViewManager/Classes/WLTableViewManager.m; sourceTree = "<group>"; };
+		E4CDB6B84B2429614ABB5424C0B9196C /* Pods_WLTableViewManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLTableViewManager_Tests.framework; path = "Pods-WLTableViewManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6BE031D48DC347E7E7B16941FB2F31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDC13FA6D5694EECE5ED9F09619778FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE03CDF264EF72CE0DBCC1A94B92CD69 /* Pods-WLTableViewManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLTableViewManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EFF67A7E64ED6C58403C4AB17DCF3F2B /* UITableView+FDTemplateLayoutCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-prefix.pch"; sourceTree = "<group>"; };
+		F0B83FB962DFCCFB0D246FB5273F751F /* WLTableViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLTableViewManager-prefix.pch"; sourceTree = "<group>"; };
 		F361108ED9FF3F7CCBFBDF3925C9D0F5 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCell.h"; path = "Classes/UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
 		F945BE96FE3548AE2DD751DD658D9EC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0FB0980DB9FD9871D500F95E10E8BF /* WLTableViewManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WLTableViewManager.framework; path = WLTableViewManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC371E944A36FEDE0EC5643CFFFE106 /* Pods-WLTableViewManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLTableViewManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		505EFE5DE23506368C27D372E995CBCE /* Frameworks */ = {
+		0267B6B3C6951B2B677B6FB009D3AD9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F85AD4870E3BF27C3CB3F1749886288 /* Foundation.framework in Frameworks */,
+				8075A21BC26D806F0D8E643BF64EADBC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B759C1DC397A33AEED74A79B5C725DDD /* Frameworks */ = {
+		D3EF901703B3C842701A0872623E84A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F5574A6E08E616F4C8F14EE6C517B2E /* Foundation.framework in Frameworks */,
+				131B784B75924A5F7B76FF711905AC93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7DF537AEFDC4AECE9908BEA5DD235C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B61FAB7D7C7BF851E5A3AA6451A5FD /* Foundation.framework in Frameworks */,
+				3542E5C42DB6AB61A51632BF29776D31 /* UITableView_FDTemplateLayoutCell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,22 +161,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09A1F4DEF25ED55190DD6925DA7A60AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				266516AB749B9CD93FBB66ECAE32C7FD /* Pods_WLTableViewManager_Example.framework */,
+				E4CDB6B84B2429614ABB5424C0B9196C /* Pods_WLTableViewManager_Tests.framework */,
+				BCD0C8F713EF6A0EB48374F4B59720B6 /* UITableView_FDTemplateLayoutCell.framework */,
+				FB0FB0980DB9FD9871D500F95E10E8BF /* WLTableViewManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15CC42BC01C11FBC73CF106021D2E1AE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B436D7FA9909CFAE3FDE03EB2BCBAF1E /* WLTableViewManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		2C138BA27445E2A17CC715F8DA396A4E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				E50ACC94A91CFA0B06A1BD71C908131A /* UITableView+FDTemplateLayoutCell */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		3181CD514DDBD20A05FDB9BABB40D7C0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				269CF68B1FBC4D6B0ED2C59D7129B13A /* Pods_WLTableViewManager_Example.framework */,
-				9B79724A1D20E1B0430BDE26A3212976 /* Pods_WLTableViewManager_Tests.framework */,
-				CF3D73744E2D8990AB8991C7FAEB797B /* UITableView_FDTemplateLayoutCell.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		6CEDEAF58CC673549B2AA825FA8E5DDC /* Targets Support Files */ = {
@@ -133,32 +197,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		70FEEBBCCFBB636F4F0E63C945B3BFFD /* WLTableViewManager */ = {
+		7D5127D1D698BA8B2E82F983622B5956 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				AFECFDB658B5B31178279D176F30F123 /* Foundation.framework */,
 			);
-			name = WLTableViewManager;
-			path = ../..;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9C4E4D76BEFB939D09220F318B6A40F1 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				15CC42BC01C11FBC73CF106021D2E1AE /* Development Pods */,
+				A41E60752BC9072217DCB50D95C6AA65 /* Frameworks */,
 				2C138BA27445E2A17CC715F8DA396A4E /* Pods */,
-				3181CD514DDBD20A05FDB9BABB40D7C0 /* Products */,
+				09A1F4DEF25ED55190DD6925DA7A60AA /* Products */,
 				6CEDEAF58CC673549B2AA825FA8E5DDC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9C4E4D76BEFB939D09220F318B6A40F1 /* Development Pods */ = {
+		A41E60752BC9072217DCB50D95C6AA65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				70FEEBBCCFBB636F4F0E63C945B3BFFD /* WLTableViewManager */,
+				24F68986DD133AD663AC0F4A17EE6E09 /* UITableView_FDTemplateLayoutCell.framework */,
+				7D5127D1D698BA8B2E82F983622B5956 /* iOS */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A696551F0037BFCBEACBED2BBEB8860D /* Pods-WLTableViewManager_Tests */ = {
@@ -179,12 +244,37 @@
 			path = "Target Support Files/Pods-WLTableViewManager_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		B436D7FA9909CFAE3FDE03EB2BCBAF1E /* WLTableViewManager */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				8B9F4A35FACBB4E5C0DB5CF13D32A443 /* WLTableViewCell.h */,
+				0CBD867D3C5357F68B5AF0B0170D7976 /* WLTableViewCell.m */,
+				A1888827C20C5DE2809061D116D822B1 /* WLTableViewCellStyle.h */,
+				C8457700AAACD0E79941C4BFCED634E5 /* WLTableViewCellStyle.m */,
+				C6D1B56ED1A204B4560FAAD85B577479 /* WLTableViewItem.h */,
+				85FB5E84A7ECA9E3F2DE83C8476AECC1 /* WLTableViewItem.m */,
+				1A11C0A8B23916C3C4E4064BA9E44BF4 /* WLTableViewManager.h */,
+				E28EA6EA26CF1C44248450B781803817 /* WLTableViewManager.m */,
+				A3F7A2E9B49369C85CF4EB953E724AAC /* WLTableViewSection.h */,
+				D6F037BA51BA593F810625B33B6D85AD /* WLTableViewSection.m */,
+				BE36C056C363DF17DDC0D0E7FFC36D90 /* Support Files */,
 			);
-			name = Frameworks;
+			name = WLTableViewManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BE36C056C363DF17DDC0D0E7FFC36D90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D259D00F696AF368A315E96B301B777 /* Info.plist */,
+				7233CF7B37CB986D989C9BBB0A6EB838 /* WLTableViewManager.modulemap */,
+				BC38265F1AB751FF6E79A8B22A6A79C6 /* WLTableViewManager.xcconfig */,
+				7D52AC5905AEC369241C29CAABF247B3 /* WLTableViewManager-dummy.m */,
+				F0B83FB962DFCCFB0D246FB5273F751F /* WLTableViewManager-prefix.pch */,
+				2AF25C829C34540A7E8FB76216AB857E /* WLTableViewManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WLTableViewManager";
 			sourceTree = "<group>";
 		};
 		C730839C5DF1A0724A3A65151201E43A /* Pods-WLTableViewManager_Example */ = {
@@ -219,14 +309,6 @@
 			path = "../Target Support Files/UITableView+FDTemplateLayoutCell";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		E50ACC94A91CFA0B06A1BD71C908131A /* UITableView+FDTemplateLayoutCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,23 +329,36 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5228A3CD4C9ABD0CE379FEAB82F64B9D /* Headers */ = {
+		5EABBBC5105A684F0AF66921DBF0F637 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEA8D73B633A4837494F83487A0A4A4B /* UITableView+FDIndexPathHeightCache.h in Headers */,
-				C33CE36099C373D4D85034D78EB33045 /* UITableView+FDKeyedHeightCache.h in Headers */,
-				CD848FFDE9BBCFE4AF1636AA78D59178 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */,
-				D55BE45DAE73AE1E223F21C5E24DFC12 /* UITableView+FDTemplateLayoutCell.h in Headers */,
-				06F3C30E9C01E4001301D322277CC95E /* UITableView+FDTemplateLayoutCellDebug.h in Headers */,
+				4749FF2D1859C1891F991500ECA65F11 /* Pods-WLTableViewManager_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4CE9FBC66AF48A631B58AE55F1309D3 /* Headers */ = {
+		B129647FA955CFE9509B7EBCCCCA10E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C71F259D565244803789642652ACED4 /* Pods-WLTableViewManager_Example-umbrella.h in Headers */,
+				A736DA0AAC4844B34620C503198F167D /* WLTableViewCell.h in Headers */,
+				48190128747156CA9A39D227DAE0BE5C /* WLTableViewCellStyle.h in Headers */,
+				25F92234FE9AA9EC56CAEC3052C16DDE /* WLTableViewItem.h in Headers */,
+				BB20BB9D5F924D7C2EB618A58660501A /* WLTableViewManager-umbrella.h in Headers */,
+				36418DF53B657C4452C32AB34EA410AD /* WLTableViewManager.h in Headers */,
+				2D4608F898019315D9D3C4F98836B3C5 /* WLTableViewSection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF7CA2D71B2CAC79793E52FF390A9E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D022F1F5E26891DC34F61CCF4CEB5AB2 /* UITableView+FDIndexPathHeightCache.h in Headers */,
+				320EB44EE74864E60DC49C5E9D3ADC5C /* UITableView+FDKeyedHeightCache.h in Headers */,
+				394459C080E718B0455D72FC7A9C5765 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */,
+				68E44E64BD1C3AA347FA830F5D86319A /* UITableView+FDTemplateLayoutCell.h in Headers */,
+				BF1C414FC4E4AB1EE3455CBBCA03B8E1 /* UITableView+FDTemplateLayoutCellDebug.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,13 +373,50 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		45B715D179DFABA7DFDABF910E6EBF03 /* UITableView+FDTemplateLayoutCell */ = {
+		20CF5E3BE13CED2A06368A2268452198 /* WLTableViewManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04C91E5945BABA86BD15C6A11CA0EC7A /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */;
+			buildConfigurationList = 61005F3F231CE1B5151C77EA853DFD25 /* Build configuration list for PBXNativeTarget "WLTableViewManager" */;
 			buildPhases = (
-				BBED911DA4CED31D70B8B8786FBABCEE /* Sources */,
-				505EFE5DE23506368C27D372E995CBCE /* Frameworks */,
-				5228A3CD4C9ABD0CE379FEAB82F64B9D /* Headers */,
+				C4534EE20B441D67C0A4D6058D5FED90 /* Sources */,
+				DC7DF537AEFDC4AECE9908BEA5DD235C /* Frameworks */,
+				B129647FA955CFE9509B7EBCCCCA10E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32387CA67419262C1C8A5107A1AD5E29 /* PBXTargetDependency */,
+			);
+			name = WLTableViewManager;
+			productName = WLTableViewManager;
+			productReference = FB0FB0980DB9FD9871D500F95E10E8BF /* WLTableViewManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		364E21538660403CFB4826E9378D31EC /* Pods-WLTableViewManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E8042586E8FC541A815FF7E5A6CEF4 /* Build configuration list for PBXNativeTarget "Pods-WLTableViewManager_Example" */;
+			buildPhases = (
+				B10AEC4A092D1073A5814A29093006A8 /* Sources */,
+				D3EF901703B3C842701A0872623E84A5 /* Frameworks */,
+				5EABBBC5105A684F0AF66921DBF0F637 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4AABDD1E6570637EDD8D847B2EEFD42 /* PBXTargetDependency */,
+				BA3A66147FC9E12287EF76A6A517D867 /* PBXTargetDependency */,
+			);
+			name = "Pods-WLTableViewManager_Example";
+			productName = "Pods-WLTableViewManager_Example";
+			productReference = 266516AB749B9CD93FBB66ECAE32C7FD /* Pods_WLTableViewManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66E06946D0D4E56EDF5D855C9D5A6FCD /* UITableView+FDTemplateLayoutCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C28C36FA9809D420365BC4F35DBF76 /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */;
+			buildPhases = (
+				083E32557A463D6B5650E2FA5FCE0481 /* Sources */,
+				0267B6B3C6951B2B677B6FB009D3AD9A /* Frameworks */,
+				CBF7CA2D71B2CAC79793E52FF390A9E6 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -292,7 +424,7 @@
 			);
 			name = "UITableView+FDTemplateLayoutCell";
 			productName = "UITableView+FDTemplateLayoutCell";
-			productReference = CF3D73744E2D8990AB8991C7FAEB797B /* UITableView_FDTemplateLayoutCell.framework */;
+			productReference = BCD0C8F713EF6A0EB48374F4B59720B6 /* UITableView_FDTemplateLayoutCell.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		822B3546CBD329F8E6E7C7921F08736F /* Pods-WLTableViewManager_Tests */ = {
@@ -309,25 +441,7 @@
 			);
 			name = "Pods-WLTableViewManager_Tests";
 			productName = "Pods-WLTableViewManager_Tests";
-			productReference = 9B79724A1D20E1B0430BDE26A3212976 /* Pods_WLTableViewManager_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D3FDD88CC327E32450375D6178B0872B /* Pods-WLTableViewManager_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65F0BB7F95BB8F0C2D36FDA816E1352A /* Build configuration list for PBXNativeTarget "Pods-WLTableViewManager_Example" */;
-			buildPhases = (
-				D090B4EC965370F09137FBF4EE4B3FA6 /* Sources */,
-				B759C1DC397A33AEED74A79B5C725DDD /* Frameworks */,
-				A4CE9FBC66AF48A631B58AE55F1309D3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				97C164328FC857684A08111C2138152E /* PBXTargetDependency */,
-			);
-			name = "Pods-WLTableViewManager_Example";
-			productName = "Pods-WLTableViewManager_Example";
-			productReference = 269CF68B1FBC4D6B0ED2C59D7129B13A /* Pods_WLTableViewManager_Example.framework */;
+			productReference = E4CDB6B84B2429614ABB5424C0B9196C /* Pods_WLTableViewManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -347,27 +461,36 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3181CD514DDBD20A05FDB9BABB40D7C0 /* Products */;
+			productRefGroup = 09A1F4DEF25ED55190DD6925DA7A60AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3FDD88CC327E32450375D6178B0872B /* Pods-WLTableViewManager_Example */,
+				364E21538660403CFB4826E9378D31EC /* Pods-WLTableViewManager_Example */,
 				822B3546CBD329F8E6E7C7921F08736F /* Pods-WLTableViewManager_Tests */,
-				45B715D179DFABA7DFDABF910E6EBF03 /* UITableView+FDTemplateLayoutCell */,
+				66E06946D0D4E56EDF5D855C9D5A6FCD /* UITableView+FDTemplateLayoutCell */,
+				20CF5E3BE13CED2A06368A2268452198 /* WLTableViewManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BBED911DA4CED31D70B8B8786FBABCEE /* Sources */ = {
+		083E32557A463D6B5650E2FA5FCE0481 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F919DE04221BA13AF005F145B95D8E4 /* UITableView+FDIndexPathHeightCache.m in Sources */,
-				A78D4C9A292D77BA8EEA115A756F7CB5 /* UITableView+FDKeyedHeightCache.m in Sources */,
-				034D634D685F191B9C9FFF63901F097E /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */,
-				0C430E9F267772895C934672EAD20FA5 /* UITableView+FDTemplateLayoutCell.m in Sources */,
-				C8A1C03842A14D76A0B341BE9C314EFB /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
+				B46C3B50FF4EFD2ED2658D80D2C1C8BC /* UITableView+FDIndexPathHeightCache.m in Sources */,
+				292E98F7C1690EFCA7ED165F20C3D2C2 /* UITableView+FDKeyedHeightCache.m in Sources */,
+				2B1F703B23455432683ED85909736570 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */,
+				0B3A9B2471C702DB8EF125836043FF76 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				F60CB22994BBA02FB9FDF7109A2964DE /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10AEC4A092D1073A5814A29093006A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D30EDB944D9B75925A59095E1BEB8E7 /* Pods-WLTableViewManager_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,91 +502,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D090B4EC965370F09137FBF4EE4B3FA6 /* Sources */ = {
+		C4534EE20B441D67C0A4D6058D5FED90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF1931ECC569EDF928225FDA7FF0D678 /* Pods-WLTableViewManager_Example-dummy.m in Sources */,
+				A6D7596B2E6FF5A1665FE4D38AED2805 /* WLTableViewCell.m in Sources */,
+				D90D5C7E3A32F9FDA7B0C62E95626F40 /* WLTableViewCellStyle.m in Sources */,
+				523AEE824FD40FA68AA20629E98C3A9D /* WLTableViewItem.m in Sources */,
+				26066DACCE46854022DE3821DC4C1E33 /* WLTableViewManager-dummy.m in Sources */,
+				834E1A2D83BE8CB9EA51FFE15FE2D88B /* WLTableViewManager.m in Sources */,
+				6880B63E081EB89894D119E214160F17 /* WLTableViewSection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		97C164328FC857684A08111C2138152E /* PBXTargetDependency */ = {
+		32387CA67419262C1C8A5107A1AD5E29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "UITableView+FDTemplateLayoutCell";
-			target = 45B715D179DFABA7DFDABF910E6EBF03 /* UITableView+FDTemplateLayoutCell */;
-			targetProxy = 9A328181F9EF6BD30E8D1EF6B649357D /* PBXContainerItemProxy */;
+			target = 66E06946D0D4E56EDF5D855C9D5A6FCD /* UITableView+FDTemplateLayoutCell */;
+			targetProxy = 72E9C0E3FFBA5F8B9DBBE418429EB600 /* PBXContainerItemProxy */;
+		};
+		A4AABDD1E6570637EDD8D847B2EEFD42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITableView+FDTemplateLayoutCell";
+			target = 66E06946D0D4E56EDF5D855C9D5A6FCD /* UITableView+FDTemplateLayoutCell */;
+			targetProxy = 692AC4DA4AD25AD89FFC0C072E09FF29 /* PBXContainerItemProxy */;
+		};
+		BA3A66147FC9E12287EF76A6A517D867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WLTableViewManager;
+			target = 20CF5E3BE13CED2A06368A2268452198 /* WLTableViewManager */;
+			targetProxy = C8816911CF82CE03A434571859F1F4B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		34DE45A96DB389341E729C941D5190BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FBDA6203522647CF379671EA7AF4D16 /* Pods-WLTableViewManager_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WLTableViewManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WLTableViewManager_Example/Pods-WLTableViewManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WLTableViewManager_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		467D4FF9B2AB967B22B3FA58B952CA03 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4201BA0DACED9CE8452E8B083A79E58E /* Pods-WLTableViewManager_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WLTableViewManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WLTableViewManager_Example/Pods-WLTableViewManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WLTableViewManager_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -527,7 +602,36 @@
 			};
 			name = Debug;
 		};
-		7AAF8E0062000983D8955A0AAB6A02FD /* Debug */ = {
+		5283081EA22444BFDAFD307CAA3BCF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC38265F1AB751FF6E79A8B22A6A79C6 /* WLTableViewManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WLTableViewManager/WLTableViewManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WLTableViewManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WLTableViewManager/WLTableViewManager.modulemap";
+				PRODUCT_NAME = WLTableViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		630FED103179438037DF3F5D9D49A4C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B47E78D21BE33221BAD2DC0AE80CC2B /* UITableView+FDTemplateLayoutCell.xcconfig */;
 			buildSettings = {
@@ -555,6 +659,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		7996623BF3F7D6CA4611D77D830B23DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FBDA6203522647CF379671EA7AF4D16 /* Pods-WLTableViewManager_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WLTableViewManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLTableViewManager_Example/Pods-WLTableViewManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WLTableViewManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -679,7 +816,37 @@
 			};
 			name = Debug;
 		};
-		F2CB25DA3BF019881C0549667ACB4C1A /* Release */ = {
+		ADEDB81DB54C6961E95D3B9D2819BC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC38265F1AB751FF6E79A8B22A6A79C6 /* WLTableViewManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WLTableViewManager/WLTableViewManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WLTableViewManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WLTableViewManager/WLTableViewManager.modulemap";
+				PRODUCT_NAME = WLTableViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B08DD97D25DBE978D5DF653B99C4233F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B47E78D21BE33221BAD2DC0AE80CC2B /* UITableView+FDTemplateLayoutCell.xcconfig */;
 			buildSettings = {
@@ -709,14 +876,46 @@
 			};
 			name = Release;
 		};
+		F96EF7061BA0AED9AD274E83A6836BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4201BA0DACED9CE8452E8B083A79E58E /* Pods-WLTableViewManager_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WLTableViewManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLTableViewManager_Example/Pods-WLTableViewManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WLTableViewManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04C91E5945BABA86BD15C6A11CA0EC7A /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */ = {
+		28E8042586E8FC541A815FF7E5A6CEF4 /* Build configuration list for PBXNativeTarget "Pods-WLTableViewManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AAF8E0062000983D8955A0AAB6A02FD /* Debug */,
-				F2CB25DA3BF019881C0549667ACB4C1A /* Release */,
+				F96EF7061BA0AED9AD274E83A6836BBE /* Debug */,
+				7996623BF3F7D6CA4611D77D830B23DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -730,11 +929,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65F0BB7F95BB8F0C2D36FDA816E1352A /* Build configuration list for PBXNativeTarget "Pods-WLTableViewManager_Example" */ = {
+		61005F3F231CE1B5151C77EA853DFD25 /* Build configuration list for PBXNativeTarget "WLTableViewManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				467D4FF9B2AB967B22B3FA58B952CA03 /* Debug */,
-				34DE45A96DB389341E729C941D5190BE /* Release */,
+				5283081EA22444BFDAFD307CAA3BCF3F /* Debug */,
+				ADEDB81DB54C6961E95D3B9D2819BC93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -744,6 +943,15 @@
 			buildConfigurations = (
 				9530011B09111951BA3FCDC8FBE990C8 /* Debug */,
 				828A5D9121C77AC150E7AFA33503C5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C28C36FA9809D420365BC4F35DBF76 /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630FED103179438037DF3F5D9D49A4C6 /* Debug */,
+				B08DD97D25DBE978D5DF653B99C4233F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

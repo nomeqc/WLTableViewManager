@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/nomeqc@gmail.com/WLTableViewManager'
+  s.homepage         = 'https://github.com/Nomeqc/WLTableViewManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nomeqc@gmail.com' => 'xie5405@163.com' }
-  s.source           = { :git => 'https://github.com/nomeqc@gmail.com/WLTableViewManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/Nomeqc/WLTableViewManager.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'WLTableViewManager/Classes/**/*'
-  
+  s.public_header_files = 'WLTableViewManager/Classes/**/*.h'
+  s.dependency 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+
   # s.resource_bundles = {
   #   'WLTableViewManager' => ['WLTableViewManager/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #
 end

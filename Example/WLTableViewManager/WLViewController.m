@@ -7,6 +7,7 @@
 //
 
 #import "WLViewController.h"
+#import "WLTableViewManager.h"
 
 @interface WLViewController ()
 
@@ -17,7 +18,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
