@@ -1,7 +1,7 @@
 {
   "name": "WLTableViewManager",
-  "version": "0.1.0",
-  "summary": "A short description of WLTableViewManager.",
+  "version": "0.1.3",
+  "summary": "Data Driver For TableView",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Nomeqc/WLTableViewManager",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Nomeqc/WLTableViewManager.git",
-    "tag": "0.1.0"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"

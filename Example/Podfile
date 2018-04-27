@@ -1,12 +1,19 @@
 use_frameworks!
 
+source 'http://gitlab.fallrainy.top/root/XDBSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git' #官方仓库的地址
+
 target 'WLTableViewManager_Example' do
   
-#  pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
-  pod 'WLTableViewManager', :path => '../'
+#  pod 'WLTableViewManager'
 
-  target 'WLTableViewManager_Tests' do
-    inherit! :search_paths
+  pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+  pod 'WLTableViewManager', :path => '../'
   
-  end
+  
+#
+#  target 'WLTableViewManager_Tests' do
+#    inherit! :search_paths
+#
+#  end
 end

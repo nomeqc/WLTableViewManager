@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b79441bb-19da-466e-9722-c1e5f003687d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WLTableViewManager/WLTableViewCell.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WLTableViewManager/WLTableViewCell.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WLTableViewManager/WLTableViewCellStyle.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WLTableViewManager/WLTableViewCellStyle.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WLTableViewManager/WLTableViewItem.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WLTableViewManager/WLTableViewItem.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WLTableViewManager/WLTableViewManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WLTableViewManager/WLTableViewManager.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WLTableViewManager/WLTableViewSection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WLTableViewManager/WLTableViewSection.m" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../WLTableViewManager/Classes/ReplaceMe.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WLTableViewManager_Tests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WLTableViewManager_Tests/Pods-WLTableViewManager_Tests-acknowledgements.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WLTableViewManager_Tests/Pods-WLTableViewManager_Tests-acknowledgements.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WLTableViewManager_Tests/Pods-WLTableViewManager_Tests-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WLTableViewManager_Tests/Pods-WLTableViewManager_Tests-frameworks.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WLTableViewManager_Tests/Pods-WLTableViewManager_Tests-resources.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WLTableViewManager_Tests/Pods-WLTableViewManager_Tests-umbrella.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WLTableViewManager_Tests/Pods-WLTableViewManager_Tests.debug.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WLTableViewManager_Tests/Pods-WLTableViewManager_Tests.modulemap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WLTableViewManager_Tests/Pods-WLTableViewManager_Tests.release.xcconfig" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/WLTableViewManager/Info.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/WLTableViewManager/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/WLTableViewManager/WLTableViewManager.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/WLTableViewManager/WLTableViewManager.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WLTableViewManager.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/WLTableViewManager.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WLTableViewManager/WLViewController.m" afterPath="$PROJECT_DIR$/WLTableViewManager/WLViewController.m" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,72 +31,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_23C8AEA0-CC5E-430D-ABF6-F6DE7AE9CD68" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="WLTableViewCell.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WLTableViewManager/WLTableViewCell.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WLTableViewSection.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WLTableViewManager/WLTableViewSection.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WLTableViewManager.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WLTableViewManager/WLTableViewManager.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-              <folding>
-                <element signature="e#1199#1222#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WLTableViewItem.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WLTableViewManager/WLTableViewItem.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WLTableViewCellStyle.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WLTableViewManager/WLTableViewCellStyle.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-              <folding>
-                <element signature="e#1201#1234#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WLTableViewCell.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WLTableViewManager/WLTableViewCell.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -119,10 +60,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="656" />
-    <option name="y" value="23" />
+    <option name="x" value="343" />
+    <option name="y" value="217" />
     <option name="width" value="1260" />
-    <option name="height" value="703" />
+    <option name="height" value="258" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -152,12 +93,6 @@
               <item name="WLTableViewManager" type="1d218c8b:XcodeProjectNode" />
               <item name="Example for WLTableViewManager" type="fcab9f18:XcodeViewNode" />
             </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="WLTableViewManager" type="1d218c8b:XcodeProjectNode" />
-              <item name="Example for WLTableViewManager" type="fcab9f18:XcodeViewNode" />
-              <item name="Classes" type="fcab9f18:XcodeViewNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -180,7 +115,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WLTableViewManager-Example" />
+  <component name="RunManager" selected="Application.WLTableViewManager-Example">
+    <configuration name="WLTableViewManager" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="WLTableViewManager" CONFIG_NAME="Debug" SCHEME_NAME="WLTableViewManager" MAKE_ACTIVE="TRUE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.WLTableViewManager-Example" />
+      <item index="1" class="java.lang.String" itemvalue="Application.WLTableViewManager" />
+    </list>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -191,19 +137,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523240530029</updated>
-      <workItem from="1523240534422" duration="407000" />
+      <workItem from="1523240534422" duration="774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="407000" />
+    <option name="totallyTimeSpent" value="774000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="656" y="23" width="1260" height="703" extended-state="0" />
-    <editor active="true" />
+    <frame x="343" y="217" width="1260" height="258" extended-state="0" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -253,9 +198,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding>
-            <element signature="e#1199#1222#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -271,9 +214,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-          <folding>
-            <element signature="e#1201#1234#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
