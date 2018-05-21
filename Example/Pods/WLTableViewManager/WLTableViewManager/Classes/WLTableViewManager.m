@@ -344,6 +344,13 @@
     }
 }
 
+- (nullable NSArray<UITableViewRowAction *> *)tableView:(UITableView *)tableView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath {
+    WLTableViewSection *section = self.mutableSections[indexPath.section];
+    WLTableViewItem *item = section.items[indexPath.row];
+    return [NSArray arrayWithArray:item.rowActions];
+}
+
+
 #pragma mark -
 #pragma mark Table view delegate
 

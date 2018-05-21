@@ -87,7 +87,7 @@
     
     self.enabled = YES;
     self.cellHeight = UITableViewAutomaticDimension;
-    self.selectionStyle = UITableViewCellSelectionStyleBlue;
+    self.selectionStyle = UITableViewCellSelectionStyleNone;
     
     return self;
 }
@@ -139,14 +139,4 @@
     return _cellIdentifier;
 }
 
-//- (CGFloat)cellHeight {
-//    if (_cellHeight == 0.0) {
-//        _cellHeight = UITableViewAutomaticDimension;
-//    }
-//    return _cellHeight;
-//}
-
-- (UITableViewCellSelectionStyle)selectionStyle {
-    return UITableViewCellSelectionStyleNone;
-}
 @end

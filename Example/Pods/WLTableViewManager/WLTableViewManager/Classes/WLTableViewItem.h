@@ -58,7 +58,9 @@
 // Action bar
 @property (copy, readwrite, nonatomic) void (^actionBarNavButtonTapHandler)(id item); //handler for nav button on ActionBar
 @property (copy, readwrite, nonatomic) void (^actionBarDoneButtonTapHandler)(id item); //handler for done button on ActionBar
-@property (nonatomic, copy) NSArray<UITableViewRowAction *> *rowActions;
+
+///Swipe Actions for rows
+@property (nonatomic) NSArray<UITableViewRowAction *> *rowActions;
 
 // Error validation
 //
@@ -86,5 +88,7 @@
 - (void)deselectRowAnimated:(BOOL)animated;
 - (void)reloadRowWithAnimation:(UITableViewRowAnimation)animation;
 - (void)deleteRowWithAnimation:(UITableViewRowAnimation)animation;
+
+///
 
 @end

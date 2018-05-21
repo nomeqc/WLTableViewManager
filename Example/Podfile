@@ -7,7 +7,7 @@ target 'WLTableViewManager_Example' do
   
 #  pod 'WLTableViewManager'
 
-  pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+#  pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
   pod 'WLTableViewManager', :path => '../'
   
   

@@ -205,12 +205,7 @@
         if ([self.delegate conformsToProtocol:@protocol(WLTableViewManagerDelegate)] && [self.delegate respondsToSelector:@selector(tableView:didLoadCell:forRowAtIndexPath:)])
             [self.delegate tableView:tableView didLoadCell:cell forRowAtIndexPath:indexPath];
     };
-    
-//    if (cell == nil) {
-//        cell = [[cellClass alloc] initWithStyle:cellStyle reuseIdentifier:cellIdentifier];
-//
-//        loadCell(cell);
-//    }
+
     
     cell.rowIndex = indexPath.row;
     cell.sectionIndex = indexPath.section;

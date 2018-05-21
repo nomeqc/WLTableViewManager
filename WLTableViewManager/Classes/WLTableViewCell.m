@@ -118,8 +118,7 @@
         self.accessoryType = item.accessoryType;
         self.accessoryView = item.accessoryView;
         self.textLabel.textAlignment = item.textAlignment;
-        if (self.selectionStyle != UITableViewCellSelectionStyleNone)
-            self.selectionStyle = item.selectionStyle;
+        self.selectionStyle = item.selectionStyle;
         self.imageView.image = item.image;
         self.imageView.highlightedImage = item.highlightedImage;
     }
@@ -129,7 +128,7 @@
 
 - (void)cellDidDisappear
 {
-
+    
 }
 
 - (void)layoutSubviews

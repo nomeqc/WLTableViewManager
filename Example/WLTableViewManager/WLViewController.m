@@ -46,8 +46,24 @@ static NSString *const kCellId = @"cell";
             item.editingStyle = UITableViewCellEditingStyleDelete;
             item;
         })];
+        [section addItem:({
+            TableViewCellItem *item = [[TableViewCellItem alloc] init];
+            item.rowActions = ({
+                UITableViewRowAction *deleteAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive title:@"删除" handler:^(UITableViewRowAction * _Nonnull action, NSIndexPath * _Nonnull indexPath) {
+                    NSLog(@"删除");
+                }];
+                UITableViewRowAction *editingAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleNormal title:@"编辑" handler:^(UITableViewRowAction * _Nonnull action, NSIndexPath * _Nonnull indexPath) {
+                    NSLog(@"编辑");
+                }];
+                @[deleteAction,editingAction];
+            });
+            item.editingStyle = UITableViewCellEditingStyleDelete;
+            item;
+        })];
         section;
     })];
+    
+
     
 }
 
