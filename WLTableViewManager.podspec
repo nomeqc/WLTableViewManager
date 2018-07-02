@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLTableViewManager'
-  s.version          = '1.1'
+  s.version          = '1.2'
   s.summary          = 'Data Driver For TableView'
 
 # This description is used to generate tags and improve search results.
@@ -33,10 +33,4 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'WLTableViewManager/Classes/**/*.h'
   s.dependency 'UITableView+FDTemplateLayoutCell', '~> 1.6'
 
-  # s.resource_bundles = {
-  #   'WLTableViewManager' => ['WLTableViewManager/Assets/*.png']
-  # }
-
-  # s.frameworks = 'UIKit', 'MapKit'
-  #
 end

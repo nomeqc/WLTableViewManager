@@ -62,9 +62,6 @@ static NSString *const kCellId = @"cell";
         })];
         section;
     })];
-    
-
-    
 }
 
 - (void)registerCell {

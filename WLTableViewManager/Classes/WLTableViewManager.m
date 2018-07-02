@@ -91,8 +91,7 @@
 
 - (void)registerDefaultClasses
 {
-    //分割线
-//    self[NSStringFromClass([XDBSeparatorLineItem class])] = NSStringFromClass([XDBSeparatorLineCell class]);
+   self[NSStringFromClass([WLTableViewItem class])] = NSStringFromClass([WLTableViewCell class]);
 }
 
 - (void)registerClass:(NSString *)objectClass forCellWithReuseIdentifier:(NSString *)identifier
