@@ -27,7 +27,29 @@ static NSString *const kCellId = @"cell";
 {
     [super viewDidLoad];
     self.manager = [[WLTableViewManager alloc] initWithTableView:self.tableView delegate:self];
-    [self registerCell];
+//    [self registerCell];
+
+    
+//    WLTableViewSection *mySection;
+//    [self.manager addSection:({
+//        WLTableViewSection *section = [[WLTableViewSection alloc] init];
+//        mySection = section;
+//        section;
+//    })];
+//    
+//    
+//    TableViewCellItem *item = [[TableViewCellItem alloc] init];
+//    item.rowActions = ({
+//        UITableViewRowAction *deleteAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive title:@"删除" handler:^(UITableViewRowAction * _Nonnull action, NSIndexPath * _Nonnull indexPath) {
+//            NSLog(@"删除");
+//        }];
+//        UITableViewRowAction *editingAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleNormal title:@"编辑" handler:^(UITableViewRowAction * _Nonnull action, NSIndexPath * _Nonnull indexPath) {
+//            NSLog(@"编辑");
+//        }];
+//        @[deleteAction,editingAction];
+//    });
+//    item.editingStyle = UITableViewCellEditingStyleDelete;
+//    [mySection addItem:item];
     
     //测试左滑按钮
     [self.manager addSection:({
@@ -62,11 +84,14 @@ static NSString *const kCellId = @"cell";
         })];
         section;
     })];
+    
+    
 }
 
 - (void)registerCell {
     self.manager[NSStringFromClass([TableViewCellItem class])] = NSStringFromClass([TableViewCell class]);
 }
+
 
 
 

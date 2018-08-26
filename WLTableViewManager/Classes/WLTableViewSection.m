@@ -25,6 +25,7 @@
 
 #import "WLTableViewSection.h"
 #import "WLTableViewManager.h"
+#import "WLTableViewItem+RegisterHelper.h"
 
 CGFloat const WLTableViewSectionHeaderHeightAutomatic = DBL_MAX;
 CGFloat const WLTableViewSectionFooterHeightAutomatic = DBL_MAX;
@@ -142,35 +143,41 @@ CGFloat const WLTableViewSectionFooterHeightAutomatic = DBL_MAX;
 
 - (void)addItem:(id)item
 {
-    if ([item isKindOfClass:[WLTableViewItem class]])
+    if ([item isKindOfClass:[WLTableViewItem class]]) {
         ((WLTableViewItem *)item).section = self;
-    
+        [item registerCellIfNeeded];
+    }
     [self.mutableItems addObject:item];
 }
 
 - (void)addItemsFromArray:(NSArray *)array
 {
-    for (WLTableViewItem *item in array)
-        if ([item isKindOfClass:[WLTableViewItem class]])
+    for (WLTableViewItem *item in array) {
+        if ([item isKindOfClass:[WLTableViewItem class]]) {
             ((WLTableViewItem *)item).section = self;
-    
+            [item registerCellIfNeeded];
+        }
+    }
     [self.mutableItems addObjectsFromArray:array];
 }
 
 - (void)insertItem:(id)item atIndex:(NSUInteger)index
 {
-    if ([item isKindOfClass:[WLTableViewItem class]])
+    if ([item isKindOfClass:[WLTableViewItem class]]) {
         ((WLTableViewItem *)item).section = self;
-    
+        [item registerCellIfNeeded];
+    }
     [self.mutableItems insertObject:item atIndex:index];
 }
 
 - (void)insertItems:(NSArray *)items atIndexes:(NSIndexSet *)indexes
 {
-    for (WLTableViewItem *item in items)
-        if ([item isKindOfClass:[WLTableViewItem class]])
+    for (WLTableViewItem *item in items) {
+        if ([item isKindOfClass:[WLTableViewItem class]]) {
             ((WLTableViewItem *)item).section = self;
-    
+            [item registerCellIfNeeded];
+        }
+    }
     [self.mutableItems insertObjects:items atIndexes:indexes];
 }
 
@@ -308,5 +315,6 @@ CGFloat const WLTableViewSectionFooterHeightAutomatic = DBL_MAX;
     }
     return errors;
 }
+
 
 @end

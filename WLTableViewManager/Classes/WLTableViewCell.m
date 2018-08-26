@@ -175,7 +175,10 @@
     backgroundFrame.size.width = self.backgroundView.frame.size.width - self.section.style.backgroundImageMargin * 2;
     self.backgroundImageView.frame = backgroundFrame;
     self.selectedBackgroundImageView.frame = backgroundFrame;
-
+    
+    if ([self.tableViewManager.delegate respondsToSelector:@selector(tableView:willLayoutCellSubviews:forRowAtIndexPath:)]) {
+        [self.tableViewManager.delegate tableView:self.tableViewManager.tableView willLayoutCellSubviews:self forRowAtIndexPath:[self.tableViewManager.tableView indexPathForCell:self]];
+    }
 }
 
 

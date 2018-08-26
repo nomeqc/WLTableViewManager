@@ -28,7 +28,18 @@
 
 @class WLTableViewSection;
 
-@interface WLTableViewItem : NSObject
+@protocol WLTableViewCellRegisterProtocol <NSObject>
+
+@optional
+/**
+    提供要注册的cell的Class,tableViewManager会适时地自动注册
+ */
++ (Class)cellClassForRegister;
+
+@end
+
+
+@interface WLTableViewItem : NSObject <WLTableViewCellRegisterProtocol>
 
 @property (copy, readwrite, nonatomic) NSString *title;
 @property (strong, readwrite, nonatomic) UIImage *image;
@@ -92,3 +103,5 @@
 ///
 
 @end
+
+

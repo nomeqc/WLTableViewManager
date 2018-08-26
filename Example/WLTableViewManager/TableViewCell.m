@@ -22,6 +22,10 @@
     return self;
 }
 
++ (Class)cellClassForRegister {
+    return [TableViewCell class];
+}
+
 @end
 
 @interface TableViewCell ()
@@ -45,5 +49,7 @@
 
     // Configure the view for the selected state
 }
+
+
 
 @end

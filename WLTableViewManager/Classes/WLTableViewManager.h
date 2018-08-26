@@ -110,6 +110,7 @@
  */
 - (void)registerClass:(NSString *)objectClass forCellWithReuseIdentifier:(NSString *)identifier bundle:(NSBundle *)bundle;
 
+
 /**
  Returns cell class at specified index path.
  

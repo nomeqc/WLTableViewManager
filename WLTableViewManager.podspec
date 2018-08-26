@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLTableViewManager'
-  s.version          = '1.2'
+  s.version          = '1.3'
   s.summary          = 'Data Driver For TableView'
 
 # This description is used to generate tags and improve search results.

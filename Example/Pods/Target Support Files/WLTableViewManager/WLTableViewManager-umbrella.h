@@ -12,6 +12,7 @@
 
 #import "WLTableViewCell.h"
 #import "WLTableViewCellStyle.h"
+#import "WLTableViewItem+RegisterHelper.h"
 #import "WLTableViewItem.h"
 #import "WLTableViewManager.h"
 #import "WLTableViewSection.h"

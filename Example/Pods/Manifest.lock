@@ -1,6 +1,6 @@
 PODS:
   - "UITableView+FDTemplateLayoutCell (1.6)"
-  - WLTableViewManager (1.0):
+  - WLTableViewManager (1.2):
     - "UITableView+FDTemplateLayoutCell (~> 1.6)"
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
-  WLTableViewManager: 38beb7a065892094d8a66828fd4b134386337a32
+  WLTableViewManager: 1c5ee66c86356df48dc9915a4b1852ba7e8b2966
 
 PODFILE CHECKSUM: 90de503261218c33197880f41da23535a6f5d078
 

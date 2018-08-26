@@ -8,33 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		0B3A9B2471C702DB8EF125836043FF76 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE44BB57B6680149F668F2EA996F5B /* UITableView+FDTemplateLayoutCell.m */; };
-		10B61FAB7D7C7BF851E5A3AA6451A5FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFECFDB658B5B31178279D176F30F123 /* Foundation.framework */; };
-		131B784B75924A5F7B76FF711905AC93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFECFDB658B5B31178279D176F30F123 /* Foundation.framework */; };
-		25F92234FE9AA9EC56CAEC3052C16DDE /* WLTableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DE63A18479176517C61C63BED7D2E749 /* WLTableViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26066DACCE46854022DE3821DC4C1E33 /* WLTableViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F36AD56293468954C1B941AD3C3259D5 /* WLTableViewManager-dummy.m */; };
+		1A84D7FD3904F3D2FF4A846F29C283EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C69F0CCD6CA7D6F47DCD95E2AD1FD88 /* Foundation.framework */; };
+		22E37E149151FD98C93158B792E9C313 /* WLTableViewManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C4080119182564B2C8E94B854E49EA /* WLTableViewManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25C53D9EBCAEE3087DB7A4C09C88F92B /* WLTableViewCellStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E4E7FC540DCB22B94461B1AE68C25DC /* WLTableViewCellStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		292E98F7C1690EFCA7ED165F20C3D2C2 /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F78701BA972A8B39C1B8627E5963BE8 /* UITableView+FDKeyedHeightCache.m */; };
+		2A41AE3271E3C7B1CFE77D2C45387769 /* WLTableViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FAD27A01224FE8CC49B19020F0D3CF /* WLTableViewManager-dummy.m */; };
 		2B1F703B23455432683ED85909736570 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4341329E0926FC259F103336B62B1513 /* UITableView+FDTemplateLayoutCell-dummy.m */; };
 		2D30EDB944D9B75925A59095E1BEB8E7 /* Pods-WLTableViewManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C701F62BEC7C7375655E0E29ABFC469 /* Pods-WLTableViewManager_Example-dummy.m */; };
-		2D4608F898019315D9D3C4F98836B3C5 /* WLTableViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B0AB5BF313ECBED635B83560847157 /* WLTableViewSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		320EB44EE74864E60DC49C5E9D3ADC5C /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACFCBFF2B7FFAD2329045C66AEA6D09 /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3542E5C42DB6AB61A51632BF29776D31 /* UITableView_FDTemplateLayoutCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F68986DD133AD663AC0F4A17EE6E09 /* UITableView_FDTemplateLayoutCell.framework */; };
-		36418DF53B657C4452C32AB34EA410AD /* WLTableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8E28CEA1536E86D6D6C2A893A71D12 /* WLTableViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		394459C080E718B0455D72FC7A9C5765 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FE285B5E145C7375B69C8EFCB0E088 /* UITableView+FDTemplateLayoutCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B9B00F76ACD124F69B76ADF17064FBA /* WLTableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA852B714013F2823CA3269DE3158BA /* WLTableViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		451F65CDB56D9E40799C4B6E8D3D3EB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C69F0CCD6CA7D6F47DCD95E2AD1FD88 /* Foundation.framework */; };
 		4749FF2D1859C1891F991500ECA65F11 /* Pods-WLTableViewManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 383399FD892534B933B4F65B28299A3B /* Pods-WLTableViewManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48190128747156CA9A39D227DAE0BE5C /* WLTableViewCellStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 584B22BA11EDC5E34E42A3B410DBD1CB /* WLTableViewCellStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		523AEE824FD40FA68AA20629E98C3A9D /* WLTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BF61A6BD519825E8C0FEAAFE627A9567 /* WLTableViewItem.m */; };
-		6880B63E081EB89894D119E214160F17 /* WLTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = A51E5EFD3E588C3943DFC7A67CC68442 /* WLTableViewSection.m */; };
+		5B5C2507ADDC732951F6A20FE5F5936B /* WLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C953C0DFAB0A9821D99CB87EF9DED /* WLTableViewCell.m */; };
+		61A65BD129754C0EFA6816E3B7310D3B /* WLTableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C21CEB6B04263BD6B267A98402AEA08 /* WLTableViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68E44E64BD1C3AA347FA830F5D86319A /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F361108ED9FF3F7CCBFBDF3925C9D0F5 /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8075A21BC26D806F0D8E643BF64EADBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFECFDB658B5B31178279D176F30F123 /* Foundation.framework */; };
-		834E1A2D83BE8CB9EA51FFE15FE2D88B /* WLTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 348C8E3F41EABEAC259BD751FEC1CAB4 /* WLTableViewManager.m */; };
-		A6D7596B2E6FF5A1665FE4D38AED2805 /* WLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D2EEE5A935CF3630626446DF0CE23C /* WLTableViewCell.m */; };
-		A736DA0AAC4844B34620C503198F167D /* WLTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C077608B3C2DD9EA0E6ED5BF50DFC3 /* WLTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91E409FD48AF250851B9211818A0EEB9 /* WLTableViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC0622E403A814611670B89E38BD697 /* WLTableViewSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98F4778EB00D96CCEFE942CBC3BB5F7F /* WLTableViewCellStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A1C92C348A4DFC06F1A0CDE7F4E9B4 /* WLTableViewCellStyle.m */; };
+		9E9158FFC6FA577D86F6E1AECF160A62 /* WLTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6CDAEE23C8D1A0FFC7F28A67BC0C87 /* WLTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8AE99B556873D35AD06ACE7FD87C324 /* WLTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C71D60E7CCFFC736D427045AEE1C45 /* WLTableViewManager.m */; };
+		AE0A4ADEFF93E3743DFAB16291B9383C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C69F0CCD6CA7D6F47DCD95E2AD1FD88 /* Foundation.framework */; };
 		B46C3B50FF4EFD2ED2658D80D2C1C8BC /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 624CF3287BB79B0A1F2403D9DB36D03E /* UITableView+FDIndexPathHeightCache.m */; };
-		BB20BB9D5F924D7C2EB618A58660501A /* WLTableViewManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5020BA889BE71FBD12D90BE6446C13 /* WLTableViewManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF1C414FC4E4AB1EE3455CBBCA03B8E1 /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 482EC47306DD9B8A5AE26D2F21B8A5CF /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEE07CED4E90ED4B336B46348249A9FC /* WLTableViewItem+RegisterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AE32540C6EAFDBCEEA66EB9E9EE86B /* WLTableViewItem+RegisterHelper.m */; };
 		D022F1F5E26891DC34F61CCF4CEB5AB2 /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 096DEDA5E7B958BFB7755E18D5CD4CBF /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D90D5C7E3A32F9FDA7B0C62E95626F40 /* WLTableViewCellStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA82A68816FDB76041DBE21051BEAC9 /* WLTableViewCellStyle.m */; };
 		F60CB22994BBA02FB9FDF7109A2964DE /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B69C232795C7F0948377C8020AB685 /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		F7C6A86A8E78582D3EE54CCB2479B92D /* WLTableViewItem+RegisterHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A24E53C9BDB78246890D7F22D06D9BB /* WLTableViewItem+RegisterHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F8AB82E16187496B4C35A9841BD418 /* WLTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B8FDF0981030719DF8E9D2AE79CC2F /* WLTableViewSection.m */; };
+		FDB44728EF5D2B2C33675C1B4D9D4989 /* WLTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4AA7A20C5154279D1283D6CB480E35 /* WLTableViewItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,53 +66,55 @@
 /* Begin PBXFileReference section */
 		08B69C232795C7F0948377C8020AB685 /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCellDebug.m"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
 		096DEDA5E7B958BFB7755E18D5CD4CBF /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDIndexPathHeightCache.h"; path = "Classes/UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
-		0BA82A68816FDB76041DBE21051BEAC9 /* WLTableViewCellStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewCellStyle.m; path = WLTableViewManager/Classes/WLTableViewCellStyle.m; sourceTree = "<group>"; };
-		170A46787586A7803CC7035E771FADD2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		18A0A38AE402A1288938C20E006784F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19C077608B3C2DD9EA0E6ED5BF50DFC3 /* WLTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewCell.h; path = WLTableViewManager/Classes/WLTableViewCell.h; sourceTree = "<group>"; };
 		1FC64F46BF78346BA6790E84F52B02CF /* Pods-WLTableViewManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLTableViewManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2493475A6F05409C19B0B53B65B2E7CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		24F68986DD133AD663AC0F4A17EE6E09 /* UITableView_FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITableView_FDTemplateLayoutCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B8FDF0981030719DF8E9D2AE79CC2F /* WLTableViewSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewSection.m; path = WLTableViewManager/Classes/WLTableViewSection.m; sourceTree = "<group>"; };
+		2C69F0CCD6CA7D6F47DCD95E2AD1FD88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		31FE285B5E145C7375B69C8EFCB0E088 /* UITableView+FDTemplateLayoutCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-umbrella.h"; sourceTree = "<group>"; };
-		348C8E3F41EABEAC259BD751FEC1CAB4 /* WLTableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewManager.m; path = WLTableViewManager/Classes/WLTableViewManager.m; sourceTree = "<group>"; };
 		383399FD892534B933B4F65B28299A3B /* Pods-WLTableViewManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLTableViewManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		39CC95BB9FACA07DB173D5ACCDC31928 /* WLTableViewManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WLTableViewManager.podspec; sourceTree = "<group>"; };
 		3ACFCBFF2B7FFAD2329045C66AEA6D09 /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDKeyedHeightCache.h"; path = "Classes/UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
-		3AE2CA4FAE14E8BE28377A109F6FE1FE /* WLTableViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLTableViewManager-prefix.pch"; sourceTree = "<group>"; };
 		41E6494B18C331549C6AE118239AA2A2 /* UITableView+FDTemplateLayoutCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UITableView+FDTemplateLayoutCell.modulemap"; sourceTree = "<group>"; };
 		433DB7194AC2DEEA34B8E5BBEAAB7B5A /* UITableView_FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITableView_FDTemplateLayoutCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4341329E0926FC259F103336B62B1513 /* UITableView+FDTemplateLayoutCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell-dummy.m"; sourceTree = "<group>"; };
 		482EC47306DD9B8A5AE26D2F21B8A5CF /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCellDebug.h"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
-		584B22BA11EDC5E34E42A3B410DBD1CB /* WLTableViewCellStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewCellStyle.h; path = WLTableViewManager/Classes/WLTableViewCellStyle.h; sourceTree = "<group>"; };
+		588236DBABB9DD0BED30A79F32EDD5A9 /* WLTableViewManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLTableViewManager.modulemap; sourceTree = "<group>"; };
+		5D0C953C0DFAB0A9821D99CB87EF9DED /* WLTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewCell.m; path = WLTableViewManager/Classes/WLTableViewCell.m; sourceTree = "<group>"; };
+		5FBB17384034BA5917B1823AC4B8CC52 /* WLTableViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLTableViewManager-prefix.pch"; sourceTree = "<group>"; };
 		624CF3287BB79B0A1F2403D9DB36D03E /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDIndexPathHeightCache.m"; path = "Classes/UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
-		6FA6E34FD9726B5883A370A898835B4D /* WLTableViewManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WLTableViewManager.podspec; sourceTree = "<group>"; };
+		6E4E7FC540DCB22B94461B1AE68C25DC /* WLTableViewCellStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewCellStyle.h; path = WLTableViewManager/Classes/WLTableViewCellStyle.h; sourceTree = "<group>"; };
 		77281D4037ACA81B23AFC4C5B80F56F6 /* Pods-WLTableViewManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLTableViewManager_Example.modulemap"; sourceTree = "<group>"; };
 		7A94AC596FB4BD7980B91430F0A3F4D7 /* Pods-WLTableViewManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLTableViewManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7D5020BA889BE71FBD12D90BE6446C13 /* WLTableViewManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLTableViewManager-umbrella.h"; sourceTree = "<group>"; };
-		85557CDDF59EF33DB534151EAFF2C48E /* WLTableViewManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLTableViewManager.modulemap; sourceTree = "<group>"; };
+		8A24E53C9BDB78246890D7F22D06D9BB /* WLTableViewItem+RegisterHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WLTableViewItem+RegisterHelper.h"; path = "WLTableViewManager/Classes/WLTableViewItem+RegisterHelper.h"; sourceTree = "<group>"; };
 		8B47E78D21BE33221BAD2DC0AE80CC2B /* UITableView+FDTemplateLayoutCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITableView+FDTemplateLayoutCell.xcconfig"; sourceTree = "<group>"; };
 		8BBAB24345B3FFF1B443482577D938E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C21CEB6B04263BD6B267A98402AEA08 /* WLTableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewManager.h; path = WLTableViewManager/Classes/WLTableViewManager.h; sourceTree = "<group>"; };
 		8C46AD8D37E055870915EFBA37095E55 /* Pods_WLTableViewManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLTableViewManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F78701BA972A8B39C1B8627E5963BE8 /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDKeyedHeightCache.m"; path = "Classes/UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94B2212D67B4F5F6CE7C525C2204A410 /* Pods-WLTableViewManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLTableViewManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9C701F62BEC7C7375655E0E29ABFC469 /* Pods-WLTableViewManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLTableViewManager_Example-dummy.m"; sourceTree = "<group>"; };
-		A51E5EFD3E588C3943DFC7A67CC68442 /* WLTableViewSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewSection.m; path = WLTableViewManager/Classes/WLTableViewSection.m; sourceTree = "<group>"; };
-		A5B0AB5BF313ECBED635B83560847157 /* WLTableViewSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewSection.h; path = WLTableViewManager/Classes/WLTableViewSection.h; sourceTree = "<group>"; };
-		AFECFDB658B5B31178279D176F30F123 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		BA8E28CEA1536E86D6D6C2A893A71D12 /* WLTableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewManager.h; path = WLTableViewManager/Classes/WLTableViewManager.h; sourceTree = "<group>"; };
+		A041F1B8012E0E7E8AD80A55B2114B63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FAD27A01224FE8CC49B19020F0D3CF /* WLTableViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLTableViewManager-dummy.m"; sourceTree = "<group>"; };
+		A8AE32540C6EAFDBCEEA66EB9E9EE86B /* WLTableViewItem+RegisterHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WLTableViewItem+RegisterHelper.m"; path = "WLTableViewManager/Classes/WLTableViewItem+RegisterHelper.m"; sourceTree = "<group>"; };
 		BE3EF4029E1386A3E694214E636DE5B6 /* WLTableViewManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WLTableViewManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF61A6BD519825E8C0FEAAFE627A9567 /* WLTableViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewItem.m; path = WLTableViewManager/Classes/WLTableViewItem.m; sourceTree = "<group>"; };
+		BEE0EDE71FFB6433E2332CD82BCC82DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BFCC6C6A8FB80B24B4B1EF72F8D6D891 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C1B294D022C5A8431555091958D6C852 /* WLTableViewManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLTableViewManager.xcconfig; sourceTree = "<group>"; };
+		C1C71D60E7CCFFC736D427045AEE1C45 /* WLTableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewManager.m; path = WLTableViewManager/Classes/WLTableViewManager.m; sourceTree = "<group>"; };
+		C9A1C92C348A4DFC06F1A0CDE7F4E9B4 /* WLTableViewCellStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewCellStyle.m; path = WLTableViewManager/Classes/WLTableViewCellStyle.m; sourceTree = "<group>"; };
+		CD6CDAEE23C8D1A0FFC7F28A67BC0C87 /* WLTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewCell.h; path = WLTableViewManager/Classes/WLTableViewCell.h; sourceTree = "<group>"; };
 		DBDE44BB57B6680149F668F2EA996F5B /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCell.m"; path = "Classes/UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
-		DE63A18479176517C61C63BED7D2E749 /* WLTableViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewItem.h; path = WLTableViewManager/Classes/WLTableViewItem.h; sourceTree = "<group>"; };
+		DFA852B714013F2823CA3269DE3158BA /* WLTableViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewItem.h; path = WLTableViewManager/Classes/WLTableViewItem.h; sourceTree = "<group>"; };
 		E007DCF61119B174C3666B80AEC57DDE /* Pods-WLTableViewManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLTableViewManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E4828EC24D3218582D53BB2C2BBECDED /* Pods-WLTableViewManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLTableViewManager_Example-resources.sh"; sourceTree = "<group>"; };
-		E6D2EEE5A935CF3630626446DF0CE23C /* WLTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewCell.m; path = WLTableViewManager/Classes/WLTableViewCell.m; sourceTree = "<group>"; };
+		ECC0622E403A814611670B89E38BD697 /* WLTableViewSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLTableViewSection.h; path = WLTableViewManager/Classes/WLTableViewSection.h; sourceTree = "<group>"; };
 		EFF67A7E64ED6C58403C4AB17DCF3F2B /* UITableView+FDTemplateLayoutCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-prefix.pch"; sourceTree = "<group>"; };
 		F361108ED9FF3F7CCBFBDF3925C9D0F5 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCell.h"; path = "Classes/UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
-		F36AD56293468954C1B941AD3C3259D5 /* WLTableViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLTableViewManager-dummy.m"; sourceTree = "<group>"; };
+		F4C4080119182564B2C8E94B854E49EA /* WLTableViewManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLTableViewManager-umbrella.h"; sourceTree = "<group>"; };
 		F57D0CB23F846D46D4E8AC3E72E56002 /* Pods-WLTableViewManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLTableViewManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F945BE96FE3548AE2DD751DD658D9EC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA5A0089DD7544B858A25477DCB73589 /* WLTableViewManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLTableViewManager.xcconfig; sourceTree = "<group>"; };
+		FE4AA7A20C5154279D1283D6CB480E35 /* WLTableViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLTableViewItem.m; path = WLTableViewManager/Classes/WLTableViewItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8075A21BC26D806F0D8E643BF64EADBC /* Foundation.framework in Frameworks */,
+				AE0A4ADEFF93E3743DFAB16291B9383C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				131B784B75924A5F7B76FF711905AC93 /* Foundation.framework in Frameworks */,
+				451F65CDB56D9E40799C4B6E8D3D3EB6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10B61FAB7D7C7BF851E5A3AA6451A5FD /* Foundation.framework in Frameworks */,
+				1A84D7FD3904F3D2FF4A846F29C283EC /* Foundation.framework in Frameworks */,
 				3542E5C42DB6AB61A51632BF29776D31 /* UITableView_FDTemplateLayoutCell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +146,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21B189A1CA520E0C38FF960A34C9ACBE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A041F1B8012E0E7E8AD80A55B2114B63 /* Info.plist */,
+				588236DBABB9DD0BED30A79F32EDD5A9 /* WLTableViewManager.modulemap */,
+				C1B294D022C5A8431555091958D6C852 /* WLTableViewManager.xcconfig */,
+				A7FAD27A01224FE8CC49B19020F0D3CF /* WLTableViewManager-dummy.m */,
+				5FBB17384034BA5917B1823AC4B8CC52 /* WLTableViewManager-prefix.pch */,
+				F4C4080119182564B2C8E94B854E49EA /* WLTableViewManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WLTableViewManager";
+			sourceTree = "<group>";
+		};
 		2C138BA27445E2A17CC715F8DA396A4E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,28 +168,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6353B178D2A23923627E1F32028FD9F6 /* Support Files */ = {
+		47D151F0E241827C860B7F6F21D5EEA7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				18A0A38AE402A1288938C20E006784F5 /* Info.plist */,
-				85557CDDF59EF33DB534151EAFF2C48E /* WLTableViewManager.modulemap */,
-				FA5A0089DD7544B858A25477DCB73589 /* WLTableViewManager.xcconfig */,
-				F36AD56293468954C1B941AD3C3259D5 /* WLTableViewManager-dummy.m */,
-				3AE2CA4FAE14E8BE28377A109F6FE1FE /* WLTableViewManager-prefix.pch */,
-				7D5020BA889BE71FBD12D90BE6446C13 /* WLTableViewManager-umbrella.h */,
+				A3A3347F454F8F0B3BE8D5F5C2F4E686 /* WLTableViewManager */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WLTableViewManager";
-			sourceTree = "<group>";
-		};
-		64192668324D584C970539EE6744EAF6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2493475A6F05409C19B0B53B65B2E7CB /* LICENSE */,
-				170A46787586A7803CC7035E771FADD2 /* README.md */,
-				6FA6E34FD9726B5883A370A898835B4D /* WLTableViewManager.podspec */,
-			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		6DAFDCFFE6E9E9999D7AF4D8F9154CF1 /* Pods-WLTableViewManager_Example */ = {
@@ -202,19 +204,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7D5127D1D698BA8B2E82F983622B5956 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				AFECFDB658B5B31178279D176F30F123 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B773C04A5F5CDF1DF8BAE1A2E6BE82CA /* Development Pods */,
+				47D151F0E241827C860B7F6F21D5EEA7 /* Development Pods */,
 				A41E60752BC9072217DCB50D95C6AA65 /* Frameworks */,
 				2C138BA27445E2A17CC715F8DA396A4E /* Pods */,
 				78F99FB328EABD75564934F3A6276430 /* Products */,
@@ -222,21 +216,23 @@
 			);
 			sourceTree = "<group>";
 		};
-		9595058C58C278FBD65D9DC8BF171841 /* WLTableViewManager */ = {
+		A3A3347F454F8F0B3BE8D5F5C2F4E686 /* WLTableViewManager */ = {
 			isa = PBXGroup;
 			children = (
-				19C077608B3C2DD9EA0E6ED5BF50DFC3 /* WLTableViewCell.h */,
-				E6D2EEE5A935CF3630626446DF0CE23C /* WLTableViewCell.m */,
-				584B22BA11EDC5E34E42A3B410DBD1CB /* WLTableViewCellStyle.h */,
-				0BA82A68816FDB76041DBE21051BEAC9 /* WLTableViewCellStyle.m */,
-				DE63A18479176517C61C63BED7D2E749 /* WLTableViewItem.h */,
-				BF61A6BD519825E8C0FEAAFE627A9567 /* WLTableViewItem.m */,
-				BA8E28CEA1536E86D6D6C2A893A71D12 /* WLTableViewManager.h */,
-				348C8E3F41EABEAC259BD751FEC1CAB4 /* WLTableViewManager.m */,
-				A5B0AB5BF313ECBED635B83560847157 /* WLTableViewSection.h */,
-				A51E5EFD3E588C3943DFC7A67CC68442 /* WLTableViewSection.m */,
-				64192668324D584C970539EE6744EAF6 /* Pod */,
-				6353B178D2A23923627E1F32028FD9F6 /* Support Files */,
+				CD6CDAEE23C8D1A0FFC7F28A67BC0C87 /* WLTableViewCell.h */,
+				5D0C953C0DFAB0A9821D99CB87EF9DED /* WLTableViewCell.m */,
+				6E4E7FC540DCB22B94461B1AE68C25DC /* WLTableViewCellStyle.h */,
+				C9A1C92C348A4DFC06F1A0CDE7F4E9B4 /* WLTableViewCellStyle.m */,
+				DFA852B714013F2823CA3269DE3158BA /* WLTableViewItem.h */,
+				FE4AA7A20C5154279D1283D6CB480E35 /* WLTableViewItem.m */,
+				8A24E53C9BDB78246890D7F22D06D9BB /* WLTableViewItem+RegisterHelper.h */,
+				A8AE32540C6EAFDBCEEA66EB9E9EE86B /* WLTableViewItem+RegisterHelper.m */,
+				8C21CEB6B04263BD6B267A98402AEA08 /* WLTableViewManager.h */,
+				C1C71D60E7CCFFC736D427045AEE1C45 /* WLTableViewManager.m */,
+				ECC0622E403A814611670B89E38BD697 /* WLTableViewSection.h */,
+				26B8FDF0981030719DF8E9D2AE79CC2F /* WLTableViewSection.m */,
+				C74EB49461057435753B4199C725873B /* Pod */,
+				21B189A1CA520E0C38FF960A34C9ACBE /* Support Files */,
 			);
 			name = WLTableViewManager;
 			path = ../..;
@@ -246,7 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				24F68986DD133AD663AC0F4A17EE6E09 /* UITableView_FDTemplateLayoutCell.framework */,
-				7D5127D1D698BA8B2E82F983622B5956 /* iOS */,
+				FE3398F6F7E99C83656BC4D015B2EEB1 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -259,12 +255,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B773C04A5F5CDF1DF8BAE1A2E6BE82CA /* Development Pods */ = {
+		C74EB49461057435753B4199C725873B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9595058C58C278FBD65D9DC8BF171841 /* WLTableViewManager */,
+				BFCC6C6A8FB80B24B4B1EF72F8D6D891 /* LICENSE */,
+				BEE0EDE71FFB6433E2332CD82BCC82DB /* README.md */,
+				39CC95BB9FACA07DB173D5ACCDC31928 /* WLTableViewManager.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CBC6334E5121B854D985A6D0D20ACDF7 /* Support Files */ = {
@@ -297,6 +295,14 @@
 			path = "UITableView+FDTemplateLayoutCell";
 			sourceTree = "<group>";
 		};
+		FE3398F6F7E99C83656BC4D015B2EEB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2C69F0CCD6CA7D6F47DCD95E2AD1FD88 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -308,16 +314,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B129647FA955CFE9509B7EBCCCCA10E6 /* Headers */ = {
+		919DAB46C8CEA9255C7EFC714C8225A3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A736DA0AAC4844B34620C503198F167D /* WLTableViewCell.h in Headers */,
-				48190128747156CA9A39D227DAE0BE5C /* WLTableViewCellStyle.h in Headers */,
-				25F92234FE9AA9EC56CAEC3052C16DDE /* WLTableViewItem.h in Headers */,
-				BB20BB9D5F924D7C2EB618A58660501A /* WLTableViewManager-umbrella.h in Headers */,
-				36418DF53B657C4452C32AB34EA410AD /* WLTableViewManager.h in Headers */,
-				2D4608F898019315D9D3C4F98836B3C5 /* WLTableViewSection.h in Headers */,
+				9E9158FFC6FA577D86F6E1AECF160A62 /* WLTableViewCell.h in Headers */,
+				25C53D9EBCAEE3087DB7A4C09C88F92B /* WLTableViewCellStyle.h in Headers */,
+				F7C6A86A8E78582D3EE54CCB2479B92D /* WLTableViewItem+RegisterHelper.h in Headers */,
+				3B9B00F76ACD124F69B76ADF17064FBA /* WLTableViewItem.h in Headers */,
+				22E37E149151FD98C93158B792E9C313 /* WLTableViewManager-umbrella.h in Headers */,
+				61A65BD129754C0EFA6816E3B7310D3B /* WLTableViewManager.h in Headers */,
+				91E409FD48AF250851B9211818A0EEB9 /* WLTableViewSection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +347,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61005F3F231CE1B5151C77EA853DFD25 /* Build configuration list for PBXNativeTarget "WLTableViewManager" */;
 			buildPhases = (
-				C4534EE20B441D67C0A4D6058D5FED90 /* Sources */,
+				C07559AE9C6A2B81554228DF7AC784A6 /* Sources */,
 				DC7DF537AEFDC4AECE9908BEA5DD235C /* Frameworks */,
-				B129647FA955CFE9509B7EBCCCCA10E6 /* Headers */,
+				919DAB46C8CEA9255C7EFC714C8225A3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -439,16 +446,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4534EE20B441D67C0A4D6058D5FED90 /* Sources */ = {
+		C07559AE9C6A2B81554228DF7AC784A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6D7596B2E6FF5A1665FE4D38AED2805 /* WLTableViewCell.m in Sources */,
-				D90D5C7E3A32F9FDA7B0C62E95626F40 /* WLTableViewCellStyle.m in Sources */,
-				523AEE824FD40FA68AA20629E98C3A9D /* WLTableViewItem.m in Sources */,
-				26066DACCE46854022DE3821DC4C1E33 /* WLTableViewManager-dummy.m in Sources */,
-				834E1A2D83BE8CB9EA51FFE15FE2D88B /* WLTableViewManager.m in Sources */,
-				6880B63E081EB89894D119E214160F17 /* WLTableViewSection.m in Sources */,
+				5B5C2507ADDC732951F6A20FE5F5936B /* WLTableViewCell.m in Sources */,
+				98F4778EB00D96CCEFE942CBC3BB5F7F /* WLTableViewCellStyle.m in Sources */,
+				CEE07CED4E90ED4B336B46348249A9FC /* WLTableViewItem+RegisterHelper.m in Sources */,
+				FDB44728EF5D2B2C33675C1B4D9D4989 /* WLTableViewItem.m in Sources */,
+				2A41AE3271E3C7B1CFE77D2C45387769 /* WLTableViewManager-dummy.m in Sources */,
+				A8AE99B556873D35AD06ACE7FD87C324 /* WLTableViewManager.m in Sources */,
+				F7F8AB82E16187496B4C35A9841BD418 /* WLTableViewSection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,7 +516,7 @@
 		};
 		272F28A263A04AA3597BA3883AB790AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA5A0089DD7544B858A25477DCB73589 /* WLTableViewManager.xcconfig */;
+			baseConfigurationReference = C1B294D022C5A8431555091958D6C852 /* WLTableViewManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -758,7 +766,7 @@
 		};
 		E99B8E6B5C021C4548C5DD374CC6C85E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA5A0089DD7544B858A25477DCB73589 /* WLTableViewManager.xcconfig */;
+			baseConfigurationReference = C1B294D022C5A8431555091958D6C852 /* WLTableViewManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

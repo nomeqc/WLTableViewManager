@@ -24,6 +24,7 @@
 //
 
 #import "WLTableViewManager.h"
+#import "WLTableViewItem+RegisterHelper.h"
 
 @interface WLTableViewManager ()
 
@@ -185,8 +186,6 @@
     if ([item respondsToSelector:@selector(cellIdentifier)] && item.cellIdentifier) {
         cellIdentifier = item.cellIdentifier;
     }
-    
-//    WLTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     WLTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     
     void (^loadCell)(WLTableViewCell *cell) = ^(WLTableViewCell *cell) {
@@ -205,7 +204,6 @@
             [self.delegate tableView:tableView didLoadCell:cell forRowAtIndexPath:indexPath];
     };
 
-    
     cell.rowIndex = indexPath.row;
     cell.sectionIndex = indexPath.section;
     cell.parentTableView = tableView;
@@ -914,12 +912,20 @@
 {
     section.tableViewManager = self;
     [self.mutableSections addObject:section];
+    
+    [section.items enumerateObjectsUsingBlock:^(WLTableViewItem *item, NSUInteger idx, BOOL * _Nonnull stop) {
+        [item registerCellIfNeeded];
+    }];
 }
 
 - (void)addSectionsFromArray:(NSArray *)array
 {
-    for (WLTableViewSection *section in array)
+    for (WLTableViewSection *section in array) {
         section.tableViewManager = self;
+        [section.items enumerateObjectsUsingBlock:^(WLTableViewItem *item, NSUInteger idx, BOOL * _Nonnull stop) {
+            [item registerCellIfNeeded];
+        }];
+    }
     [self.mutableSections addObjectsFromArray:array];
 }
 
@@ -927,12 +933,20 @@
 {
     section.tableViewManager = self;
     [self.mutableSections insertObject:section atIndex:index];
+    
+    [section.items enumerateObjectsUsingBlock:^(WLTableViewItem *item, NSUInteger idx, BOOL * _Nonnull stop) {
+        [item registerCellIfNeeded];
+    }];
 }
 
 - (void)insertSections:(NSArray *)sections atIndexes:(NSIndexSet *)indexes
 {
-    for (WLTableViewSection *section in sections)
+    for (WLTableViewSection *section in sections) {
         section.tableViewManager = self;
+        [section.items enumerateObjectsUsingBlock:^(WLTableViewItem *item, NSUInteger idx, BOOL * _Nonnull stop) {
+            [item registerCellIfNeeded];
+        }];
+    }
     [self.mutableSections insertObjects:sections atIndexes:indexes];
 }
 
